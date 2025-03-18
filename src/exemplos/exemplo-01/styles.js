@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
     }, 
     titulo: {
         fontSize: RFPercentage(4), // tamanho da fonte
+        fontWeight: 'bold', 
         borderWidth: 3, // expessura da borda
         marginTop: 20, // margem acima do elemento
         marginBottom: 20, // margem abaixo do elemento
