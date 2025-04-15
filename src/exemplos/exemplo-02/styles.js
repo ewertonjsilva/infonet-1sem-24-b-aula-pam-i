@@ -16,9 +16,8 @@ const styles = StyleSheet.create({
         borderWidth: 3, // expessura da borda
         marginTop: 20, // margem acima do elemento
         marginBottom: 20, // margem abaixo do elemento
-        // padding: 8, // espaço interno
+        paddingVertical: 10, // espaço interno
         width: '100%', // largura do objeto
-        height: 80, // altura do objeto 
         textAlign: 'center', // alinhamento horizontal do texto no container
         textAlignVertical: 'center', // alinhamento vertical do texto no container
         color: 'darkslategrey', // cor do texto 
