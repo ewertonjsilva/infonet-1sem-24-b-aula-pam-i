@@ -9,8 +9,9 @@ function Atividade04() {
     const [nome, setNome] = useState('');
     const [sobrenome, setSobrenome] = useState('');
 
-    const handleExibeNomeCompleto = () => {        
-        setNomeCompleto(nome + ' ' + sobrenome);
+    const handleExibeNomeCompleto = () => {     
+        //setNomeCompleto(nome + ' ' + sobrenome);   
+        setNomeCompleto(`${nome} ${sobrenome}`);
         setNome('');
         setSobrenome('');
     }
