@@ -10,7 +10,7 @@ import styles from './styles';
             placeholderTextColor='lightgray' 
             keyboardType='numeric' 
             value={valor} 
-            onChangeText={vlr => atualizaValor(vlr)}
+            onChangeText={vlr => atualizaValor(vlr)}             
         />
     );
 }

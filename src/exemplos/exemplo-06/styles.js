@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     },
     imc: {
         color: 'lightgray',
-        fontSize: RFValue(60),
+        fontSize: RFValue(56),
         marginVertical: RFValue(15),
         textAlign: 'center',
     },

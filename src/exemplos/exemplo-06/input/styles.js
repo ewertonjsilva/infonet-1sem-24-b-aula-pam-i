@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
         fontSize: RFValue(46), 
         backgroundColor: '#aaa', 
         borderRadius: RFValue(18), 
-        margin: RFValue(5), 
+        margin: RFValue(5),         
     }, 
 }); 
 
